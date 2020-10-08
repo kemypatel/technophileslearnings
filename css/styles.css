@@ -1,0 +1,231 @@
+body{
+    background-color : gray;
+    font-family: sans-serif;
+}
+.container{
+    width: 1000px;
+    height: auto;
+    background-color: white;
+    margin : auto;
+}
+.search{
+    float: right;
+    padding-right: 10px;
+    padding-top: 50px;
+    
+}
+.logo{
+    float: left;
+    padding-top: 10px;
+}
+.clearflex{
+    clear: both;
+}
+
+/* navbar */
+.navbar{
+    background-color: teal;
+}
+.navbar > ul{
+    list-style-type : none;
+    margin:0px;
+    padding:0px;
+}
+.navbar > ul > li{
+    display: inline-block;
+}
+.navbar > ul > li > a{
+    color: white;
+    text-decoration : none;
+    display: inline-block;
+    padding: 15px;
+    font-size: small;
+}
+.navbar > ul >li>a:hover{
+    background-color :orange;
+}
+.dropdown{
+    list-style-type: none;
+    text-decoration: none;
+    margin : 0px;
+    padding : 0px;
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+.dropdown >li > a{
+    color: white;
+    text-decoration : none;
+    display: block;
+    padding: 15px;
+    font-size: small;
+    background-color: black;
+}
+.dropdown > li> a:hover{
+    background-color: orange;
+}
+.navbar > ul > li:hover .dropdown{
+    display: block;
+}
+
+/* slideshow */
+
+.slideshow{
+    width: 1000px;
+    height: 276;
+    overflow: hidden;
+}
+
+.slideshow > img{
+    width: 100%;
+    height: auto;
+
+}
+
+.main-content{
+    background-color: royalblue;
+}
+
+.content{
+    width: 700px;
+    height: auto;
+    background-color: white;
+    float: left;
+    padding: 10px;
+    
+}
+
+.widget{
+    float: right;
+    padding: 30px;
+    float: left;
+    color: white;
+ 
+     
+}
+
+.widget > ul >li {
+    list-style-type: none;
+  
+}
+
+.widget >ul>li>a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 25px;
+    font-style: italic;
+}
+
+.widget >ul>li>a:hover{
+    color: orange;
+}
+
+.main-footer{
+    background-color: black;
+    color: white;
+    width: 950px;
+    height: auto;
+    padding: 25px;
+}
+
+.footer{
+    width: 237px;
+    height: auto;
+    float: left;
+
+}
+
+.footer > ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer>ul>li>a{
+    color: white;
+    font-size: small;
+    text-decoration: none;
+    display: block;
+}
+
+.footer>ul>li>a:hover{
+    color: orange;
+}
+
+#contact{
+    font-size: small;
+    
+}
+
+#contact > em >a {
+    color: white;
+}
+
+#contact > em >a:hover{
+    color: orange;
+}
+.copyright{
+    background-color: crimson;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: small;
+}
+
+.content img{
+    width: 100%;
+}
+
+.course{
+    width: 210.33px;
+    height: auto;
+    float: left;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.course-caption a{
+    display: block;
+    background-color: teal;
+    padding: 5px;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+.course-caption a:hover{
+    display: block;
+    background-color: orange;
+}
+
+.course-caption del{
+    color: red;
+}
+
+.course-caption ins{
+    color: green;
+}
+
+.course-caption p{
+    font-weight: bold;
+    font-size: small;
+}
+
+.form{
+    font-size: small;
+    border: 1px solid teal;
+    font-weight: bold;
+}
+#submit{
+    margin: 2px;
+    text-align: center;
+    border-radius: 2px;
+    background-color: teal;
+
+}
+#submit:hover{
+    background-color: orange;
+}
